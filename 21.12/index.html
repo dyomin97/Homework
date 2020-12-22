@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script type="text/javascript">
+    /*Loop from 5 to 13*/
+    for(let i = 5; i <=13; i++){
+        document.write(`${i}`+"<br/>");
+    }
+
+    document.write("<hr/>");
+
+    /*The second task with while-loop*/
+    let num = 1000;
+    let iteration = 0;
+
+
+    while(num >= 50){
+        num/=2;
+        iteration++;
+        if(num < 50) {
+            document.write('Final number is: '+`${num}`+'  Number of iterations: '+`${iteration}`);
+        }
+    }
+    /*The second task with for-loop*/
+    let it = 0;
+    for(let num = 1000; num >= 50; ){
+        num/=2;
+        it++;
+
+        if(num < 50) {
+            document.write('<br/> Final number is: '+`${num}`+'  Number of iterations: '+`${iteration}`);
+            break;
+        }
+    }
+
+    /*The third task*/
+    document.write('<hr/>');
+    let i = 1;
+    for(let j=0; j<= 10 - i; j++){
+        document.write(`${j}`+' ');
+    }
+
+    document.write('<hr/>');
+</script>
+</body>
+</html>
