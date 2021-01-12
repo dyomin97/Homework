@@ -144,7 +144,7 @@ echo $_SESSION["name"];
 echo "<br/>";
     if($result > 15) {
         echo "У Вас покладистый характер";
-    } else if($result >=8 || $result <=15){
+    } else if($result >=8 && $result <=15){
         echo "Вы не лишены недостатков, но с Вами можно ладить";
     } else if($result <8){
         echo "Вашим друзьям можно посочувствовать";
