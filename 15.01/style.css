@@ -1,0 +1,231 @@
+body{
+	background-color:hsl(0, 0%, 98%);
+}
+@font-face{
+	font-family: 'Poppins';
+	src: url('fonts/poppins/Poppins-Thin.ttf');
+	src: url('fonts/poppins/Poppins-Regular.ttf');
+	src:url('fonts/poppins/ExtraBold.ttf')
+}
+	p.one{
+		font-family: 'Poppins', sans-serif;;
+		font-size: 200%;
+		color: #999999;
+		text-align:center;
+		font-weight: 200;
+		margin-bottom:0em;
+			}
+
+			p.two{
+				font-family:'Poppins', sans-serif;
+				font-size: 170%;
+				font-weight:600;
+				color:#4d4d4d;
+				text-align:center;
+				margin-top:0em;
+				margin-bottom:0.5em;
+			}
+
+			p.three{
+				font-family:'Poppins', sans-serif;
+				font-weight:400;
+				color:#999999;
+				font-size:70%;
+				text-align:center;
+				margin-top:0em;
+				margin:0;
+			}
+.haupt{
+	position:relative;
+	left:150;
+	top:25;
+	margin:0;
+
+	height:430;
+	width:950;
+}
+	.supervisor{
+		top:100;
+		height:200px;
+		width:300px;
+		background-color:#ffffff;
+		position:absolute;
+		border-radius:5px;
+	box-shadow:	0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-top-style:solid;
+	border-color:#00cccc;
+	border-width:5px;
+	padding-left:10;
+	}
+
+	.supervisor p.one{
+		position:absolute;
+		font-size:150%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		color:#4d4d4d;
+		font-weight:600;
+		margin-left:0.5em;
+        margin-top:1em;
+
+	}
+
+	.supervisor p.two{
+		position:absolute;
+		font-size:100%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		font-weight:400;
+		font-size:80%;
+		margin-left:1em;
+		margin-top:5em;
+		color:#cccccc;
+	}
+
+	.supervisor img{
+		height:50px;
+width:50px;
+position:absolute;
+right:25;
+bottom:25;
+	}
+
+.team_builder{
+	margin:0px;
+	top:1;
+	left:320;
+		height:200px;
+		width:300px;
+		background-color:#ffffff;
+		position:absolute;
+		border-radius:5px;
+	box-shadow:	0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-top-style:solid;
+	border-color:#b30000;
+	border-width:5px;
+	padding-left:10;
+}
+
+.team_builder p.one{
+		position:absolute;
+		font-size:150%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		color:#4d4d4d;
+		font-weight:600;
+		margin-left:0.5em;
+        margin-top:1em;
+
+	}
+.team_builder p.two{
+		position:absolute;
+		font-size:100%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		font-weight:400;
+		font-size:80%;
+		margin-left:1em;
+		margin-top:5em;
+		color:#cccccc;
+	}
+	.team_builder img{
+		height:50px;
+width:50px;
+position:absolute;
+right:25;
+bottom:25;
+	}
+	.calculator{
+	margin:0px;
+	top:100;
+	right:0;
+		height:200px;
+		width:300px;
+		background-color:#ffffff;
+		position:absolute;
+		border-radius:5px;
+	box-shadow:	0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-top-style:solid;
+	border-color:#4d79ff;
+	border-width:5px;
+	padding-left:10;
+}
+
+.calculator p.one{
+		position:absolute;
+		font-size:150%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		color:#4d4d4d;
+		font-weight:600;
+		margin-left:0.5em;
+        margin-top:1em;
+
+	}
+
+	.calculator p.two{
+		position:absolute;
+		font-size:100%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		font-weight:400;
+		font-size:80%;
+		margin-left:1em;
+		margin-top:5em;
+		color:#cccccc;
+	}
+	.calculator img{
+		height:50px;
+width:50px;
+position:absolute;
+right:25;
+bottom:25;
+	}
+
+	.karma{
+	margin:0px;
+	bottom:0;
+	left:320;
+		height:200px;
+		width:300px;
+		background-color:#ffffff;
+		position:absolute;
+		border-radius:5px;
+	box-shadow:	0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	border-top-style:solid;
+	border-color:#ffa31a;
+	border-width:5px;
+	padding-left:10;
+}
+
+.karma p.one{
+		position:absolute;
+		font-size:150%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		color:#4d4d4d;
+		font-weight:600;
+		margin-left:0.5em;
+        margin-top:1em;
+
+	}
+
+	.karma p.two{
+		position:absolute;
+		font-size:100%;
+		font-family:'Poppins', sans-serif;
+		text-align:left;
+		font-weight:400;
+		font-size:80%;
+		margin-left:1em;
+		margin-top:5em;
+		color:#cccccc;
+	}
+
+	.karma img{
+		height:50px;
+width:50px;
+position:absolute;
+right:25;
+bottom:25;
+	}
